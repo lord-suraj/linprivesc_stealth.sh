@@ -18,7 +18,7 @@ cat <<'EOF'
 |  `----.|  `--'  | |  |\  \----|  '--'  |   
 |_______| \______/  | _| `._____|_______/    
                                              
-                       PrivEsc Enumerator - Dark Lord ⚔️
+    PrivEsc Enumerator - Dark Lord ⚔️
 
 EOF
 }
