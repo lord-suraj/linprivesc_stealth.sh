@@ -1,7 +1,29 @@
 #!/usr/bin/env bash
-# Linux PrivEsc Stealth Enumerator (pure Red Team)
+# Linux PrivEsc Stealth Enumerator (Pure Red Team)
 # Focus: misconfigured binaries, writable paths, cron/systemd, capabilities, groups, containers, creds
 # Output: results folder under /tmp with findings + quick on-screen summary
+# Banner: Dark Lord
+
+banner() {
+cat <<'EOF'
+ _______       ___      .______      __  ___ 
+|       \     /   \     |   _  \    |  |/  / 
+|  .--.  |   /  ^  \    |  |_)  |   |  '  /  
+|  |  |  |  /  /_\  \   |      /    |    <   
+|  '--'  | /  _____  \  |  |\  \----|  .  \  
+|_______/ /______  \.______| `._________\__\ 
+|  |      /  __  \  |   _  \    |       \    
+|  |     |  |  |  | |  |_)  |   |  .--.  |   
+|  |     |  |  |  | |      /    |  |  |  |   
+|  `----.|  `--'  | |  |\  \----|  '--'  |   
+|_______| \______/  | _| `._____|_______/    
+                                             
+                       PrivEsc Enumerator - Dark Lord ⚔️
+
+EOF
+}
+
+banner   # show banner at start
 
 set -u
 
